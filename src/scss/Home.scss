@@ -4,11 +4,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: #c8ebff;
+    height: 70vh;
+    background: linear-gradient(#cc64e650, #9198e550);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
     border-radius: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-    margin-top: 80px;
+    box-shadow: 0 0 20px #000000a2;
+    margin-top: 140px;
+
+    filter: blur(0px);
     .container {
       max-width: 800px;
       padding: 0 20px;
@@ -16,10 +20,15 @@
       h1 {
         font-size: 3rem;
         margin-bottom: 20px;
+        text-shadow:0 0 1px #000000
       }
       p {
         font-size: 1.5rem;
         line-height: 2rem;
+        b {
+          color: #000000;
+          text-shadow:0 0 1px #000000
+        }
       }
     }
   }

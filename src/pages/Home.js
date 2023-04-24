@@ -5,8 +5,8 @@ function Home() {
   return (
     <section className="Home" id="home">
       <div className="container">
-        <h1>Bienvenue sur mon portfolio</h1>
-        <p>Je suis un développeur front-end passionné par la création de sites web élégants et performants.</p>
+        <h1>Andgel SASSIGNOL</h1>
+        <p>Actuellement étudiant en deuxième année de BTS SIO <b>Services Informatiques aux Organisations</b> option SISR <b>Solutions Infrastructures Systèmes et Réseaux</b> au lycée Le Castel à Dijon.</p>
       </div>
     </section>
   );

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import logo from '../assets/logo.svg';
-import './Navbar.scss';
+import '../scss/Navbar.scss';
 
 function Navbar() {
   return (
