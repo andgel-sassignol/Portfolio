@@ -6,7 +6,7 @@ import '../scss/Portfolio.scss';
 const Portfolio = () => {
   return (
     <div className="Portfolio" id='portfolio'>
-      <h1>Portfolio</h1>
+      <h1>Projets</h1>
       <div className="projects">
         <div className="project">
           <img src="https://placeimg.com/640/480/tech" alt="Project 1" />
