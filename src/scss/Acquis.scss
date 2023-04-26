@@ -1,0 +1,60 @@
+// Projects.scss
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+.Acquis {
+  font-family: 'Comfortaa', cursive;
+  font-weight: 500;
+  margin: 0 70px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding: 10vh;
+  background: linear-gradient(#9FD36850, #EFF65B50);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  box-shadow: 0 0 20px #000000a2;
+  margin-top: 140px;
+  .container {
+    max-width: 2000px;
+    padding: 0 20px;
+    h1 {
+      color: white;
+      font-size: 3rem;
+      padding-bottom: 1vh;
+      text-align: center;
+      text-shadow:0 0 1px #000000
+    }
+  }
+  .acquis-box {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 2rem;
+    padding-bottom: 5vh;
+    .acquis-item {
+      background-color: #ffffff60;
+      -webkit-backdrop-filter: blur(20px);
+      backdrop-filter: blur(20px);
+      border-radius: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 0.3rem;
+      height: auto;
+      transition: all 0.3s ease-in-out;
+      
+      &:hover {
+        transform: translateY(-10px);
+      }
+
+      h2 {
+        font-size: 1rem;
+        font-weight: 600;
+        margin-bottom: 0.6rem;
+      }
+    }
+  }
+}

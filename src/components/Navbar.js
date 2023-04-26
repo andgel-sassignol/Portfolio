@@ -7,9 +7,13 @@ function Navbar() {
   return (
     <nav className="Navbar">
       <div className="container">
-        <img src={logo} alt="Logo" className="logo" />
+        <a href='https://andgel-sassignol.github.io/Portfolio'>
+          <img src={logo} alt="Logo" className="logo" />
+        </a>
         <div className="container__title">
-          <h1>Portfolio</h1>
+          <a href='https://andgel-sassignol.github.io/Portfolio'>
+            <h1>Portfolio</h1>
+          </a>
         </div>
         <ul className="menu">
           <li>
@@ -39,13 +43,25 @@ function Navbar() {
           <li>
             <Link
               activeClass="active"
-              to="portfolio"
+              to="projects"
               spy={true}
               smooth={true}
               offset={-70}
               duration={500}
             >
               Projets
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="acquis"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Acquis
             </Link>
           </li>
           <li>

@@ -4,7 +4,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70vh;
+    height: auto;
+    padding: 20vh;
+    color: white;
+    text-decoration:dashed;
     background: linear-gradient(#cc64e650, #9198e550);
     -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
@@ -20,7 +23,7 @@
       h1 {
         font-size: 3rem;
         margin-bottom: 20px;
-        text-shadow:0 0 1px #000000
+        text-shadow:0 0 1px #000000;
       }
       p {
         font-size: 1.5rem;

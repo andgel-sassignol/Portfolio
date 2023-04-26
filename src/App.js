@@ -2,7 +2,8 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
-import Portfolio from './pages/Portfolio';
+import Projects from './pages/Projects';
+import Acquis from './pages/Acquis';
 import Contact from './pages/Contact';
 import Credit from './pages/Credit';
 import './scss/App.scss';
@@ -13,7 +14,8 @@ function App() {
       <Navbar />
       <Home />
       <About />
-      <Portfolio />
+      <Projects />
+      <Acquis />
       <Contact />
       <Credit />
     </div>
